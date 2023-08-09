@@ -1,0 +1,94 @@
+.everything{
+    overflow-x: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('../images/backgroundimages.jpg');
+background-size: cover; /* Adjusts the image size to cover the entire background */
+
+  
+}
+.firstContainer{
+    margin-top: 100px;
+    /* border:3px solid; */
+    border-color: black;
+    width: 800px;
+    height: 600px;
+    /* background-color:rgb(70, 110, 30) ; */
+}
+#guessGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#instructions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#inputbox{
+    margin-left: 250px;
+    width: 290px;border-radius: 7px;
+    width: 200px;
+    height: 30px;
+
+}
+#inputbox:hover{
+    width: 300px;
+    height: 40px;
+    border-radius:5px;
+}
+#submitbutton:hover{
+    width: 70px;
+    height: 20px;
+    border-radius:2px;
+    background-color: cadetblue;
+}
+
+.displayboard{
+    margin-top: 30px;
+    margin-left: 250px;
+    border:1px solid;
+    border-color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    background-color:burlywood;
+    display: flex;
+      align-items: center;
+      justify-content: center
+    
+}
+.counterboard{
+    margin-top: 30px;
+    margin-left: 250px;
+    border:1px solid;
+    border-color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    background-color:burlywood;
+    display: flex;
+      align-items: center;
+      justify-content: center
+}
+.playandquitbutton{
+    margin-top:30px;
+    margin-left: 250px;
+    display: flex;
+    justify-content:space-between;
+    width: 290px;
+}
+#playbutton:hover{
+    width: 90px;
+    height: 20px;
+    border-radius:2px;
+    background-color: cadetblue;
+}
+#quitbutton:hover{
+    width: 60px;
+    height: 20px;
+    border-radius:2px;
+    background-color: cadetblue;
+}
